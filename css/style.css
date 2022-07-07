@@ -1,0 +1,186 @@
+/*Body*/
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+/*Layout*/
+.registration {
+    padding-top: 13vh;
+    width: 350px;
+    position: relative;
+    margin: auto;
+}
+
+.sign-up-title {
+    font-size: 17px;
+    color: #8e8e8e;
+    padding: 10px 0px 10px 0px;
+}
+
+form input[type="text"], form input[type="password"] {
+    font-size: 12px;
+}
+
+.content, .content-2 {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content-2 {
+    padding: 30px 20px 10px 20px;
+}
+
+.content-2, .content-3 {
+    margin-top: 10px;
+}
+
+.instagram-header, .download-app, .login-account {
+    text-align: center;
+}
+
+.or-seperator {
+    display: flex;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.or-text {
+    margin: 12px;
+    color: #8e8e8e;
+}
+
+.or-seperator:before, .or-seperator:after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0,0,0,0.15);
+}
+
+/*Form*/
+form input {
+    display: block;
+    padding: 5px;
+    border-radius: 0.2em;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+}
+
+form input[type="text"], form input[type="text"]:focus, form input[type="password"], form input[type="password"]:focus{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+}
+
+form p {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+input[type="submit"], .login-facebook {
+    background-color: #0095f6;
+    color: #fff;
+    text-decoration: none;
+}
+
+input:invalid:focus {
+    background-image: url("../assets/icons/error-icon.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.switchtext {
+    border: none;
+    background-color: #fafafa;
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    margin-right: 45px;
+    margin-top: -25px;
+}
+
+/*Links*/
+.sign-up, .sign-up-bold {
+    text-decoration: none;
+}
+
+.sign-up, .sign-up:hover {
+    color: #0095f6;
+}
+
+.sign-up-bold, .sign-up-bold:hover {
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.login-facebook {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border-radius: 0.2em;
+}
+
+.login-facebook:hover {
+    color: #fff;
+}
+
+.list ul li {
+    display: inline;
+}
+
+.app-store, .google-play {
+    width: 150px;
+    display: inline;
+    padding: 5px;
+}
+
+.policy, .block .text-lg, .list ul li, form input, .sign-up-bold {
+    color: #8e8e8e;
+}
+
+ul select:focus {
+    outline: none;
+}
+
+ul select {
+    outline: none;
+    border: none;
+    background-color: #fafafa;
+    color: #8e8e8e;
+}
+
+.ordered-links li a {
+    text-decoration: none;
+    color: #8e8e8e;
+    padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .content, .content-2 {
+        background-color: #fafafa;
+        border: none;
+    }    
+}
